@@ -62,3 +62,12 @@
   padding: 0;
   border: none;
 }
+
+.shuffle:active {
+  transform: translateY(5px);
+  background: linear-gradient(
+    0deg,
+    rgba(251, 75, 2, 1) 0%,
+    rgba(255, 151, 0, 1) 100%
+  );
+}
