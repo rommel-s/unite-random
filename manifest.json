@@ -1,0 +1,28 @@
+{
+  "name": "Unite Random",
+  "short_name": "Unite Random",
+  "start_url": ".",
+  "background_color": "#6523b6",
+  "theme_color": "#f39200",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "./public/icons/144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./public/icons/192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./public/icons/512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
