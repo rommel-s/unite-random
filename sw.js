@@ -1,6 +1,6 @@
 self.addEventListener("install", e => {
   e.waitUntil(
-    caches.open("pokeroutes-cache").then(cache => {
+    caches.open("unite-random-cache").then(cache => {
       return cache.addAll([
         "./",
         "./src/scripts/app.js",
