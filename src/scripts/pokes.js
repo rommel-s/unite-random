@@ -134,5 +134,13 @@ export const pokes = [
   {
     name: "Azumarill",
     source: "./public/assets/cards/Azumarill.png"
-  }
+  },
+  {
+    name: "Espeon",
+    source: "./public/assets/cards/Espeon.png"
+  },
+  // {
+  //   name: "Delphox",
+  //   source: "./public/assets/cards/Delphox.png"
+  // }
 ];
