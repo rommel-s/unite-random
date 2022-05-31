@@ -4,11 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f39200" />
+    <link
+      rel="shortcut icon"
+      href="./public/icons/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="apple-touch-icon" href="./public/icons/192x192.png" />
+    <link rel="manifest" href="manifest.json" />
     <link rel="stylesheet" href="./src/styles/style.css" />
     <title>Unite Random</title>
   </head>
   <body>
     <div id="app"></div>
+
+    <div id="snackbar">
+      Uma nova versão do app está disponível. Clique
+      <a id="reload">aqui</a> para atualizar.
+    </div>
 
     <script type="module" src="./src/scripts/app.js"></script>
     <script type="module" src="./src/scripts/pokes.js"></script>

@@ -3,7 +3,7 @@
   "short_name": "Unite Random",
   "start_url": ".",
   "background_color": "#6523b6",
-  "theme_color": "#f39200",
+  "theme_color": "#6523b6",
   "display": "standalone",
   "icons": [
     {
